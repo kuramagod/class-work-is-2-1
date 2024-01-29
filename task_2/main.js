@@ -1,11 +1,16 @@
-const age = 16
+let statusPar = true
+console.log('Сегодня важные пары?')
 
-if (age >= 18) {
-    console.log('Вы совершенно летний!')
-} else if (age >= 16) {
-    console.log('Вы можете работать с ограничениями!')
-} else if (age >= 14) {
-    console.log('Вы можете работать с разрешения родителей!')
+if (statusPar === true) {
+    console.log("Сколько сегодня пар")
+    let countPar = 2
+    
+    if (countPar < 4) {
+        console.log('Сиди дома')
+    } else {
+        console.log('Беги на пары')
+    }
+
 } else {
-    console.log('Вы еще маленький!')
+    console.log('Сиди дома')
 }
