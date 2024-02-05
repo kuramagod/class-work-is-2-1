@@ -19,5 +19,5 @@ if (number.length === coutLenght) {
     console.log(`Длина вашего массива: ${number.length}. Длину массива нужно увеличить до ${coutLenght}. Прибавьте к массиву значение ${result}`);
 } else if ( number.length > coutLenght ) {
     result = number.length - coutLenght;
-    console.log(`Длина вашего массива: ${number.length}. Длину массива нужно уменьшить до ${coutLenght}. Удалите из массива значение ${result}`)
+    console.log(`Длина вашего массива: ${number.length}. Длину массива нужно уменьшить до ${coutLenght}. Удалите из массива ${result} значение`)
 }
